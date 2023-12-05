@@ -1,0 +1,28 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hola{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 18%;
+    margin-left: 18%;
+}
+
+.fuenteParrafo{
+    font-size: 20px;
+}
+
+.espacio{
+    height: 50px;
+}
+
+.animacionAgrandar{
+    transition: 0.3s;
+}
+
+.animacionAgrandar:hover{
+    transform:scale(1.1);
+    z-index: 2;
+}
